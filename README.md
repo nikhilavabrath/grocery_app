@@ -10,6 +10,7 @@ This script helps manage grocery inventory and triggers reorder alerts based on 
 
 - Add, update, and delete grocery items
 - Track item quantities and reorder levels
+- Will push a message when your recently ordered item is about to end(taking the time gaps between 2 orders of same item)
 - MySQL database integration for persistent storage
 - Simple, modular Python logic
 
