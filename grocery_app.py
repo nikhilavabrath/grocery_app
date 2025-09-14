@@ -11,8 +11,8 @@ today = datetime.now().date()
 # ---------------------------
 conn = mysql.connector.connect(
 	host="localhost",
-	user="root",
-	password="1234",
+	user="your_username",
+	password="your_password",
 	database="grocery_db"
 )
 cursor = conn.cursor()
